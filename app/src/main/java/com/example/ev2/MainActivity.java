@@ -84,9 +84,9 @@ public class MainActivity extends Activity {
             Note nota = new Note(message, null);
             notes.add(nota);
             listView.setAdapter(new ListViewAdapter(this, 0, notes));
-        } else {
+        }/* else {
             Toast.makeText(this, "Error al obtener texto", Toast.LENGTH_SHORT).show();
-        }
+        }*/
     }
 
 }
